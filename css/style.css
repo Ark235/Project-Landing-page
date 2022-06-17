@@ -1,0 +1,39 @@
+a,
+a:visited {
+    text-decoration: none;
+    color: initial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+}
+
+.header .nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.logo a {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
