@@ -104,3 +104,26 @@ a:visited {
     border-radius: 10px;
     margin: 0 0 10px 0;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 200px 80px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 0 0 0 40px;
+    max-width: 746px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 136px 0 0;
+}
