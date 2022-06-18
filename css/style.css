@@ -19,7 +19,7 @@ a:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 200px;
+    padding: 30px 200px 0 200px;
 }
 
 .header .nav a {
@@ -40,8 +40,9 @@ a:visited {
 
 .hero {
     display: flex;
-    padding: 70px 200px;
+    padding: 100px 200px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero-heading {
@@ -67,4 +68,39 @@ a:visited {
     background-color: #3882f6;
     color: #fff;
     border: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 200px 100px 200px;
+}
+
+.info-text {
+    padding: 0 0 40px 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-items {
+    display: flex;
+    gap: 80px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+}
+
+.info-img {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
 }
